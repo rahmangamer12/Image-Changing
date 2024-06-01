@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: inline-block;
+}
+.box-1{
+    width: 1318px;
+    height: 150px;
+    background: linear-gradient(rgb(133, 133, 224),rgb(148, 215, 238));
+    margin-top: 0px;
+}
+.box-1 .img-size{
+    width: 200px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    gap: 20px;
+}
+.box-1 .para{
+    display: inline-block;
+    color: black;
+    font-size: 19px;
+    margin-left: 0px;
+    gap: 20px;
+    margin-top: 100px;
+}
+.box-2{
+    width: 1318px;
+    height: 150px;
+    background: linear-gradient(rgb(133, 133, 224),rgb(148, 215, 238));
+    margin-top: 20px;
+}
+.box-2 .img-size{
+    width: 200px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* display: inline-block; */
+    gap: 20px;
+    float: right;
+}
+.box-2 .para{
+    /* display: inline-block; */
+    color: black;
+    font-size: 19px;
+    margin-left: 0px;
+    gap: 20px;
+    margin-top: 0px;
+}
+.box-3{
+    width: 1318px;
+    height: 150px;
+    background: linear-gradient(rgb(133, 133, 224),rgb(148, 215, 238));
+    margin-top: 20px;
+}
+.box-3 .img-size{
+    width: 200px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* display: inline-block; */
+    gap: 20px;
+    float: left;
+}
+.box-3 .para{
+    display: inline-block;
+    color: black;
+    font-size: 19px;
+    margin-left: 0px;
+    gap: 20px;
+    margin-top: 100px;
+}
+.box-4{
+    width: 1318px;
+    height: 150px;
+    background: linear-gradient(rgb(133, 133, 224),rgb(148, 215, 238));
+    margin-top: 20px;
+}
+.box-4 .img-size{
+    width: 200px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* display: inline-block; */
+    gap: 20px;
+    float: right;
+}
+.box-4 .para{
+    display: inline-block;
+    color: black;
+    font-size: 19px;
+    margin-left: 0px;
+    gap: 20px;
+    margin-top: 100px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
